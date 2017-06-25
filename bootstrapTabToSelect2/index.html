@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BootstarpTabToSelect2</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="exTab3" class="container">
+		<ul class="nav nav-pills js-bootstarp-tabs">
+			<li class="active">
+				<a  href="#1a" data-toggle="tab" data-select-value="0">Overview 1</a>
+			</li>
+			<li><a href="#2a" data-toggle="tab" data-select-value="1">Overview 2</a>
+			</li>
+			<li><a href="#3a" data-toggle="tab" data-select-value="2">Overview 3</a>
+			</li>
+			<li><a href="#4a" data-toggle="tab" data-select-value="3">Overview 4</a>
+			</li>
+		</ul>
+		<select class="js-select-dd select-element" data-minimum-results-for-search="Infinity">
+			<option value="0">Overview 1</option>
+			<option value="1">Overview 2</option>
+			<option value="2">Overview 3</option>
+			<option value="3">Overview 4</option>
+		</select>
+		<div class="tab-content clearfix">
+			<div class="tab-pane active" id="1a">
+				<h3>11111</h3>
+			</div>
+			<div class="tab-pane" id="2a">
+				<h3>22222</h3>
+			</div>
+			<div class="tab-pane" id="3a">
+				<h3>33333</h3>
+			</div>
+			<div class="tab-pane" id="4a">
+				<h3>44444</h3>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
